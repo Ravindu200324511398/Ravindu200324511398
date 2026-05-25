@@ -1,4 +1,4 @@
-# ravindumcg2003
+# Ravindu200324511398
 <h1 align="center">Hi 👋, I'm Ravindu Saranga</h1>
 <h3 align="center">Information Technology Undergraduate at University of Moratuwa</h3>
 
@@ -59,20 +59,19 @@ AI + IoT based smart agriculture solution for Sri Lanka.
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ravindumcg2003&show_icons=true&theme=tokyonight&cache_seconds=1800"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Ravindu200324511398&show_icons=true&theme=tokyonight"/>
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravindumcg2003&layout=compact&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ravindu200324511398&layout=compact&theme=tokyonight"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ravindumcg2003&theme=tokyonight"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravindu200324511398&theme=tokyonight"/>
 </p>
-
 ## 🌐 Connect With Me
 
 - LinkedIn: www.linkedin.com/in/ravindu-saranga-601a4b356
-- GitHub: https://github.com/ravindumcg2003
-- Email: ravindumcg2003@gmail.com
+- GitHub: https://github.com/Ravindu200324511398
+- Email: Ravindu200324511398@gmail.com
 
 ---
 
