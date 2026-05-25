@@ -56,18 +56,17 @@ Layered architecture Java Swing application with MySQL integration.
 AI + IoT based smart agriculture solution for Sri Lanka.
 
 ---
-
 ## 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Ravindu200324511398&show_icons=true&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ravindumcg2003&show_icons=true&theme=tokyonight&cache_seconds=1800"/>
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravindumcg2003&layout=compact&theme=tokyonight"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravindu200324511398&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ravindumcg2003&theme=tokyonight"/>
 </p>
-
----
 
 ## 🌐 Connect With Me
 
