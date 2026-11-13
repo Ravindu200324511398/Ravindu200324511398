@@ -1,6 +1,6 @@
 <a id="top"></a>
 
-<p align="center"><img src="assets/profile-27.gif" alt="Ravindu Saranga — animated ASCII portrait and full stack developer profile" width="1200" /></p>
+<p align="center"><img src="assets/profile-23.gif" alt="Ravindu Saranga — animated ASCII portrait and full stack developer profile" width="1200" /></p>
 
 <p align="center">
   <a href="#about-me">ABOUT</a> · <a href="#connect-with-me">CONNECT</a> · <a href="#tech-stack">TECH STACK</a> · <a href="#github-stats">STATS</a> · <a href="#language-insights">LANGUAGES</a> · <a href="#contribution-snake">SNAKE</a> · <a href="#support-my-work">SUPPORT</a>
