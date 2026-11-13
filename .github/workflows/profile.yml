@@ -1,0 +1,40 @@
+name: Update profile visuals
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 2 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile.yml'
+      - 'scripts/update_profile.py'
+permissions:
+  contents: write
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate statistics and language charts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_profile.py
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Ravindu200324511398
+          outputs: |
+            assets/contribution-snake.svg?color_snake=%2338d9dc&color_dots=%230d1518,%232d482b,%23577538,%238bb94f,%23b0e56b
+      - name: Commit generated visuals
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/stats.svg assets/streak.svg assets/languages.svg assets/languages-commits.svg assets/languages-repos.svg assets/contribution-snake.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh profile statistics and contribution snake'
+            git push
+          fi
